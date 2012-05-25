@@ -1,3 +1,4 @@
+require 'paperclip'
 module Paperclip
   class Ffmpeg < Processor
     attr_accessor :geometry, :format, :whiny, :convert_options
