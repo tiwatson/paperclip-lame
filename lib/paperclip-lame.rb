@@ -1,6 +1,6 @@
 require 'paperclip'
 module Paperclip
-  class Ffmpeg < Processor
+  class Lame < Processor
     attr_accessor :geometry, :format, :whiny, :convert_options
 
     # Creates a Video object set to work on the +file+ given. It
